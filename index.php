@@ -3,12 +3,11 @@ include('function.php');?>
 <html>
 <head>
 	<title>Commeta V. 1.0</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<style type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style type="text/css">
 	body {
 		color: #666;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Helvetica', sans-serif;
 	}
 	h4 {
 		color: #333;
@@ -66,8 +65,8 @@ include('function.php');?>
 		</form>
 	</div>
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>
 	$(function(){
 	$("a.reply").click(function() {
